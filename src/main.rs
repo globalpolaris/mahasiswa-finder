@@ -65,7 +65,6 @@ fn main() {
 
 #[tokio::main]
 async fn get_mahasiswa<'a>(name: &str) -> Result<Root, Box<dyn std::error::Error>> {
-    // let client = reqwest::Client::new();
     let url = format!("https://api-frontend.kemdikbud.go.id/hit_mhs/{}", name);
     let res = reqwest::get(&url).await?;
     let root: Root = res.json().await?;
