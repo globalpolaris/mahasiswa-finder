@@ -13,8 +13,8 @@ OPTIONS:
 ```
 		
 ## Example
-```.\mahasiswa-finder.exe -n "John Doe"```
+```.\mahasiswa-finder.exe -d "John Doe"```
 
-```.\mahasiswa-finder.exe -n "1123456"```
+```.\mahasiswa-finder.exe -d "1123456"```
 
-```.\mahasiswa-finder.exe -n "John Doe X University"```
+```.\mahasiswa-finder.exe -d "John Doe X University"```
