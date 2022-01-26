@@ -23,7 +23,7 @@ pub struct Mahasiswa {
 fn main() {
     let app = Cli::new();
     let arg = app.get_arg();
-    let name = arg.value_of("name").unwrap();
+    let name = arg.value_of("detail").unwrap();
     let mhs = get_mahasiswa(name);
     match mhs {
         Ok(mhs) => {

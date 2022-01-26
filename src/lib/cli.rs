@@ -8,13 +8,13 @@ impl<'a> Cli<'a> {
     pub fn new() -> Self {
         let app = App::new("mahasiswa-finder")
             .setting(clap::AppSettings::ArgRequiredElseHelp)
-            .version("0.0.1")
+            .version("0.1.1")
             .author("globalpolaris, nomadilog@gmail.com")
             .arg(
-                Arg::new("name")
-                    .help("Name of the student")
-                    .long("name")
-                    .short('n')
+                Arg::new("detail")
+                    .help("Detail of the student")
+                    .long("detail")
+                    .short('d')
                     .takes_value(true)
                     .required(true),
             );
