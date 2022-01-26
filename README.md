@@ -3,7 +3,8 @@
 ## Usage
 ```
 USAGE:
-    mahasiswa-finder.exe --name <name>
+    mahasiswa-finder.exe --detail <detail>
+    mahasiswa-finder.exe -d <detail>
 
 OPTIONS:
     -d, --detail <detail>    Detail of the student
